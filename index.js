@@ -9,7 +9,8 @@ function writeCards([name1, name2, nam3], event){
     debugger;
 
 }
-const num = 10;
+
+let num = 10;
 function countDown(num){
     while(num >= 0){
         console.log(num)
@@ -17,3 +18,8 @@ function countDown(num){
     }
     return num;
 }
+
+
+
+
+
