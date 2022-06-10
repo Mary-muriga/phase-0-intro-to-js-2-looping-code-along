@@ -1,25 +1,38 @@
 // Code your solutions in this file
-function writeCards([name1, name2, nam3], event){
-    return writeCards = [
-        "Thank you, Guadalupe, for the wonderful surprise gift!",
-        "Thank you, Ollie, for the wonderful surprise gift!",
-        "Thank you, Aki, for the wonderful surprise gift!",
-    ]
-    
-    debugger;
+//for (let age = 30; age < 40; age++) {
+    //console.log(`I'm ${age} years old. Happy birthday to me!`);}
+  
 
-}
 
-let num = 10;
-function countDown(num){
-    while(num >= 0){
-        console.log(num)
-        num--
+  //const gifts = ["teddy bear", "drone", "doll"];
+
+  //function wrapGifts(gifts) {
+    //for (let i = 0; i < gifts.length; i++) {
+      //console.log(`Wrapped ${gifts[i]} and added a bow!`);
+  
+    //}
+  
+    //return gifts;
+  //}
+  
+  //wrapGifts(gifts);
+  
+
+  
+  function writeCards(names, event) {
+    let messages = [];
+    for(let i = 0; i < names.length; i++) {
+    messages.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`);
     }
-    return num;
+    return messages;
 }
 
 
-
+function countDown(integer) {
+  while (integer >= 0) {
+    console.log(integer);
+      integer --;
+  }
+} 
 
 
