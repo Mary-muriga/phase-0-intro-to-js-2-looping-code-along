@@ -183,6 +183,7 @@ at any point to check the values of our variables, `i` and `gifts[i]`.
 
 When you're done, remove the `debugger` and execute the code by running
 `node index.js`. You should see the following logged to the terminal:
+cont
 
 ```text
 Wrapped teddy bear and added a bow!
